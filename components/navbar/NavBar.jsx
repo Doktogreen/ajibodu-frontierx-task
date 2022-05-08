@@ -35,26 +35,26 @@ export default function NavBar() {
             </li>
             <li className="nav-item">
               <div
-                className="text-sm nav-links"
+                className="font-semibold tracking-wider text-sm nav-links"
                 onClick={click ? handleClick : null}
               >
-                Home
+                Lorem
               </div>
             </li>
             <li className="nav-item">
               <div
-                className="text-sm nav-links"
+                className="font-semibold tracking-wider text-sm nav-links"
                 onClick={click ? handleClick : null}
               >
-                About
+                Lorem
               </div>
             </li>
             <li className="nav-item">
               <div
-                className="text-sm nav-links"
-               onClick={click ? handleClick : null}
+                className="font-semibold tracking-wider text-sm nav-links"
+                onClick={click ? handleClick : null}
               >
-                Blog
+                Lorem
               </div>
             </li>
           </ul>

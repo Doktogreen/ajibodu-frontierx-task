@@ -21,55 +21,56 @@ export const AccordionGroupLayout = () => {
     {
         title: "Accesories & Ear",
         content:
-        "Lorem ipsum .",
-        percentage: 22
+        "Lorem ipsum ",
+        percentage: 9
     },
     {
         title: "Arm",
-        content: "Lorem ipsum.",
-        percentage: 20
+        content: "Lorem ipsum",
+        percentage: 15
     },
     {
         title: "Background",
         content:
         "Lorem ipsum",
-        percentage: 33
+        percentage: 2
     },
     {
         title: "Eye",
-        content: "Lorem ipsum.",
-        percentage: 6
+        content: "Lorem ipsum",
+        percentage: 32
     },
     {
         title: "Ear & Hat",
         content:
         "Lorem ipsum",
-        percentage: 4
+        percentage: 3
     },
     {
         title: "Head",
-        content: "Lorem ipsum."
+        content: "Lorem ipsum"
     },
     {
         title: "Glasses",
         content:
         "Lorem ipsum",
-        percentage: 7
+        percentage: 2
     },
     {
         title: "Legs",
-        content: "Lorem ipsum.",
-        percentage: 10
+        content: "Lorem ipsum",
+        percentage: 92
     },
     {
         title: "Joy",
         content:
         "Lorem ipsum",
-        percentage: 30
+        percentage: 2
     },
     {
         title: "Sugar",
-        content: "Lorem ipsum."
+        content: "Lorem ipsum",
+        percentage: 46
     },
     {
         title: "Coconut",
@@ -79,8 +80,30 @@ export const AccordionGroupLayout = () => {
     },
     {
         title: "Water",
-        content: "Lorem ipsum.",
+        content: "Lorem ipsum",
         percentage: 120
+    },
+    {
+        title: "Coconut",
+        content:
+        "Lorem ipsum",
+        percentage: 7
+    },
+    {
+        title: "Water",
+        content: "Lorem ipsum",
+        percentage: 12
+    },
+    {
+        title: "Coconut",
+        content:
+        "Lorem ipsum",
+        percentage: 14
+    },
+    {
+        title: "Water",
+        content: "Lorem ipsum",
+        percentage: 5
     }
   ]
 
@@ -97,13 +120,6 @@ export const AccordionGroupLayout = () => {
 }
 
 export const AccordionItemLayout = () => {
-    const data = [
-      {
-        title: "How much do i need to pay for this?",
-        content:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo."
-      }
-    ]
 
     let itemLayout = (
         <ItemLayout />

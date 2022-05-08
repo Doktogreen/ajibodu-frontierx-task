@@ -20,7 +20,7 @@ export default function Buttons() {
             width={17}
             height={17}
           />
-           <p className="pl-2">Schedule call</p>
+           <p className="pl-2 font-semibold tracking-wider">Lorem Ipsum</p>
         </div>
         <div
           className={`${ effect && "animate-wiggle"} 
@@ -37,7 +37,7 @@ export default function Buttons() {
             width={17}
             height={17}
           />
-           <p className="pl-2">See our demo</p>
+           <p className="pl-2 font-semibold tracking-wider">Lorem Ipsum</p>
         </div>
         <div
           className={`${ effect && "animate-wiggle"} 
@@ -54,7 +54,7 @@ export default function Buttons() {
             width={17}
             height={17}
           />
-          <p className="pl-2">Contact us</p>
+          <p className="pl-2 font-semibold tracking-wider">Lorem Ipsum</p>
         </div>
       </div>
   );

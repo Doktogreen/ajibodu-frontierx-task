@@ -6,8 +6,9 @@ const SearchBox = ({change, reference}) => {
             <div className='row'>
                 <div className=''>
                     <form className='search-form'>
-                        <input className='search-box form-control' 
-                            placeholder='Lorem Ipsum...' 
+                        <input className='search-box 
+                            text-grey-400 text-sm form-control' 
+                            placeholder='Lorem Ipsum' 
                             onChange={change}
                             ref={reference}
                             type='text' 

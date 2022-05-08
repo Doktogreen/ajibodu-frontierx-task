@@ -27,7 +27,7 @@ const AccordionGroup = ({ id, groupLayout, accord }) => {
             width={17}
             height={17}
           />
-        <h4 className="mr-2 ml-2">
+        <h4 className="font-semibold tracking-wider mr-2 ml-2">
           {accord.title}
         </h4>
         {id === 0 ?

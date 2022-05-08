@@ -21,7 +21,7 @@ const AccordionItem = ({ id, itemLayout, title, content }) => {
             width={17}
             height={17}
           />
-        <h4 className="mr-2 ml-2">Lorem Ipsum</h4>
+        <h4 className="font-semibold tracking-wider mr-2 ml-2">Lorem Ipsum</h4>
         {/* {isOpened ? <ChevronOpen /> : <ChevronClosed />} */}
       </div>
       <div

@@ -39,9 +39,9 @@ export default function IndexPage() {
       
       <div className="container content-container px-16 md:px-16 max-w-10xl mx-auto mt-0">
         <div className="container w-full max-w-4xl mx-auto pt-6 text-center break-normal">
-          <p className="text-white heading-top leading-loose mb-2 text-3xl md:text-5xl">
+          <h1 className="text-white font-semibold heading-top leading-loose mb-2 text-4xl md:text-5xl">
             Lorem ipsum
-          </p>
+          </h1>
           <p className="text-white text-heading2 leading-loose">
             Created by: <a id="special-text">Ajibodu Ayomide</a>
           </p>
