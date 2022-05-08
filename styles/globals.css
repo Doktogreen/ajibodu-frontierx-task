@@ -398,6 +398,9 @@ input[type=text].current {
 .accordion-item {
   background-color: #0D0D0D;
 }
+.margin-right {
+  margin-right: auto !important;
+}
 .text-small {
   font-family: 'Manrope';
   font-style: normal;

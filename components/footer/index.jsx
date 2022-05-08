@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="footer-logo">
             <Image 
                 className="top-0 left-0 right-0 bottom-0 margin-auto"
-                src='https://res.cloudinary.com/skiltime/image/upload/v1651817548/image_3_bv9kh2.png'
+                src='https://res.cloudinary.com/skiltime/image/upload/v1651989671/image_27_1_gbjgk2.png'
                 width={195}
                 height={23}
             />
