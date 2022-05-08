@@ -282,6 +282,9 @@ input[type=text].current {
   color: #FFF;
   background-color: #1F1F1F;
 }
+.group-item {
+  width: 30% !important;
+}
  .group-item:link,
  .group-item:visited {
     background-color: #1F1F1F;
@@ -467,6 +470,15 @@ input[type=text].current {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #FC364C;
+}
+/* .flex-cards  > * {
+  margin: var(--gap) 0 0 var(--gap) !important;
+} */
+.flex-cards {
+  --gap: 3px !important;
+  row-gap: var(--gap) !important;
+  column-gap: var(--gap) !important;
+  display: inline-flex !important;
 }
 /* footer */
 

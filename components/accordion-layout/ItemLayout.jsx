@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 export default function ItemLayout() {
-
+    //Accordion item datas
     const data = [
         {
             img: "https://res.cloudinary.com/skiltime/image/upload/v1651931161/Vector_u93v1j.png",

@@ -3,12 +3,11 @@ import Image from "next/image";
 import Script from "next/script"; //  add Custom script
 import SearchBox from '../search-box';
 
-//This is  example show to add tailwind CSS in nextjs . it is not templte converting
-
-
 export default function NavBar() {
   const [click, setClick] = React.useState(false);
 
+  // This is defining the opening and closing of 
+  // the sidebar
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
   

@@ -9,29 +9,32 @@ const AccordionItem = ({ id, itemLayout, title, content }) => {
   const [height, setHeight] = useState("0px")
   const contentElement = useRef(null)
 
+  // This will open and close the modal
   const HandleOpening = () => {
     setOpened(!isOpened);
     setHeight(!isOpened ? `${300}px` : "0px")
   }
 
+  // This is meant to open the accordion when the app 
+  //  component mount / load
   const Load = () => {
     HandleOpening()
   }
-
   useEffect(() => {
       Load();
   }, [id]);
 
+  // This is defining the Open and close 
+  // Arrow Icon for the accordion
   let opened = (
     openedIcon
   );
-
   // let closed = (
   //   closedIcon
   // );
 
   return (
-    <div className="accordion border-transparent-400">
+    <div className="accordion  w-11/12 border-transparent-400">
       <div  onClick={() => HandleOpening()} 
         className={"bg-transparent-300 p-4 flex items-center justify-between text-white"}>
           <div className="flex items-center">
