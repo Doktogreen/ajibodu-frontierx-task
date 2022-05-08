@@ -296,7 +296,11 @@ input[type=text].current {
     cursor: pointer;
     border: 1px solid #FC364C;
   }
-
+@media only screen and ( max-width: 390px ) {
+  .group-item {
+    width: 95% !important;
+  }
+}
 .search-box {
   background: #1F1F1F;
   background-image:url(
