@@ -492,14 +492,13 @@ footer {
 }
 @media only screen and ( min-width: 2500px ) {
   footer {
-    width: 75%;
+    width: 100%;
     padding: 10px 0px;
     /* top: 0; */
     /* left: 0;
     right: 0; */
     bottom: 0;
     /* margin: 0 auto; */
-    position: fixed;
     /* display: flex; */
     align-self: center;
   }
