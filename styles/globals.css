@@ -301,7 +301,7 @@ input[type=text].current {
   background-image:url(
     "../components/utilities/icons/Search.svg"
   );
-  background-size: 15px 15px;
+  background-size: 26px 26px;
   background-repeat: no-repeat;
   background-origin: content-box;
   height: 45px;
@@ -319,29 +319,29 @@ input[type=text].current {
 }
 ::-webkit-input-placeholder { 
   color: #A2A2A2 !important; 
-  padding-left: 35px !important; 
-  font-size: 11.5px !important; 
+  padding-left: 42px !important; 
+  font-size: 11.7px !important; 
   font-weight: 700 !important; 
   letter-spacing: 1px !important; 
 } /* Chrome/Opera/Safari */
 ::-moz-placeholder { 
   color: #A2A2A2 !important; 
-  padding-left: 35px !important; 
-  font-size: 11.5px !important; 
+  padding-left: 42px !important; 
+  font-size: 11.7px !important; 
   font-weight: 700 !important; 
   letter-spacing: 1px !important; 
 } /* firefox 19+ */
 :-ms-input-placeholder { 
   color: #A2A2A2 !important; 
-  padding-left: 35px !important; 
-  font-size: 11.5px !important; 
+  padding-left: 42px !important; 
+  font-size: 11.7px !important; 
   font-weight: 700 !important; 
   letter-spacing: 1px !important; 
 } /* ie */
 :-moz-placeholder { 
   color: #A2A2A2 !important; 
-  padding-left: 35px !important; 
-  font-size: 11.5px !important; 
+  padding-left: 42px !important; 
+  font-size: 11.7px !important; 
   font-weight: 700 !important; 
   letter-spacing: 1px !important; 
 } /*below firefox 19 */
