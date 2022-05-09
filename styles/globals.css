@@ -504,7 +504,11 @@ footer {
     align-self: center;
   }
 }
-
+@media only screen and ( max-width: 380px ){
+  p.text-heading3 {
+    padding: 0px 15px !important;
+  }
+}
 @media only screen and ( max-width: 577px ){
   div.container.mx-auto {
     padding: 0px 0px !important;
