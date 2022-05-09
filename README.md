@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 # FRONTIERX APPLICATION
-Link to live demo: 
+Link to live demo: https://sparkly-heliotrope-b049d7.netlify.app/
+NB: The search icon will not show on demo, due to Netlify security.
 <img src="https://res.cloudinary.com/skiltime/image/upload/v1651990918/frontierx_vmmxvs.png" alt="frontierx-homeview" />
 
 
