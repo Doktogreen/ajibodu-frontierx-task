@@ -35,7 +35,7 @@ const AccordionGroup = ({ id, groupLayout, accord }) => {
   // );
 
   return (
-    <div className="accordion w-11/12 border-transparent-400">
+    <div className="accordion border-transparent-400">
       <div onClick={() => HandleOpening()}
         className={`bg-transparent-300 p-4 flex 
           items-center justify-between text-white`}>
